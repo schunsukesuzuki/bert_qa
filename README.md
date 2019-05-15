@@ -11,7 +11,7 @@ Overview
 ## Requirement
 ・dataフォルダを作成し、その中にchatdataフォルダを入れ、そこにいただいた絵文字の会話データ（chatdata-sample.txt）を入れます</br>
 ・CUDA環境が必要であるため、まずはCUDA toolkitをインストール</br>
-・ライブラリには、beautifulsoup,pickle,tqdm,ipywidgets,MeCabが必要。</br>
+・ライブラリには、torch,beautifulsoup,pickle,tqdm,ipywidgets,MeCabが必要。</br>
 
 ## License
 
