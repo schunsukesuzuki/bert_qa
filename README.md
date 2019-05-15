@@ -13,7 +13,7 @@ Overview
 ・CUDA環境が必要であるため、まずはCUDA toolkitをインストール</br>
 ・ライブラリには、beautifulsoup,pickle,tqdm,ipywidgets,MeCabが必要。</br>
 
-##License
+## License
 
 元のスクリプトには特にかけられていない様子
 
