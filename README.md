@@ -17,7 +17,7 @@ Overview
 Ubuntu 18.04 LTS</br>
 CUDA compilation tools 9.1.85</br>
 cuda toolkit 10.0.130</br>
-ipywidgets 7.4.2</br></br>
+ipywidgets 7.4.2</br>
 ipython 7.4.0</br>
 matplotlib 3.0.3</br>
 mecab-python3 0.996.1</br>
