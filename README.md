@@ -12,6 +12,8 @@ Overview
 ・dataフォルダを作成し、その中にchatdataフォルダを入れ、そこにいただいた絵文字の会話データ（chatdata-sample.txt）を入れます</br>
 ・CUDA環境が必要であるため、まずはCUDA toolkitをインストール</br>
 ・ライブラリには、torch,beautifulsoup,pickle,tqdm,ipywidgets,MeCabが必要。</br>
+mecab-ipadic-NEologdインストール
+https://qiita.com/spiderx_jp/items/7f8cbfd762c9abab660b
 
 ## Version
 Ubuntu 18.04 LTS</br>
