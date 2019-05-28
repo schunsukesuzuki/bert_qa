@@ -29,11 +29,10 @@ mecab-python3 0.996.1</br>
 pytorch 1.0.1</br>
 tqdm 4.31.1</br>
 beautifulsoup4</br>
+language-pack-ja-base</br> 
+language-pack-ja</br>
+ロケールの設定は以下を参照のこと</br>
 https://www.t3a.jp/blog/infrastructure/ubuntu-text-garbled/</br>
-apt-get install language-pack-ja-base language-pack-ja</br>
-locale-gen ja_JP.UTF-8</br>
-echo export LANG=ja_JP.UTF-8 >> ~/.profile</br>
-source ~/.profile</br>
 
 ## License
 
