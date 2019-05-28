@@ -31,6 +31,7 @@ tqdm 4.31.1</br>
 beautifulsoup4</br>
 language-pack-ja-base</br> 
 language-pack-ja</br>
+</br>
 ロケールの設定は以下を参照のこと</br>
 https://www.t3a.jp/blog/infrastructure/ubuntu-text-garbled/</br>
 Docker: コンテナのlocaleを設定したい https://qiita.com/suin/items/856bf782d0d295352e51</br>
