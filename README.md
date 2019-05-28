@@ -13,6 +13,18 @@ Overview
 ・CUDA環境が必要であるため、まずはCUDA toolkitをインストール</br>
 ・ライブラリには、torch,beautifulsoup,pickle,tqdm,ipywidgets,MeCabが必要。</br>
 
+## Version
+Ubuntu 18.04 LTS</br>
+CUDA compilation tools 9.1.85</br>
+cuda toolkit 10.0.130</br>
+ipywidgets 7.4.2</br>
+ipython 7.4.0</br>
+matplotlib 3.0.3</br>
+mecab-python3 0.996.1</br>
+pytorch 1.0.1</br>
+tqdm 4.31.1</br>
+
+
 ## License
 
 元のスクリプトには特にかけられていない様子
