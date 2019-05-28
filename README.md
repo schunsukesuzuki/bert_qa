@@ -22,11 +22,13 @@ cuda toolkit 10.0.130</br>
 ipywidgets 7.4.2</br>
 ipython 7.4.0</br>
 matplotlib 3.0.3</br>
+mecab</br>
+libmecab-dev</br>
+mecab-ipadic-utf8</br>
 mecab-python3 0.996.1</br>
 pytorch 1.0.1</br>
 tqdm 4.31.1</br>
 beautifulsoup4</br>
-
 
 ## License
 
