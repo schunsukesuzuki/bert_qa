@@ -25,6 +25,7 @@ matplotlib 3.0.3</br>
 mecab-python3 0.996.1</br>
 pytorch 1.0.1</br>
 tqdm 4.31.1</br>
+beautifulsoup4</br>
 
 
 ## License
