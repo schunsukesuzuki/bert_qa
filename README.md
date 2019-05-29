@@ -15,6 +15,16 @@ Overview
 ・mecab-ipadic-NEologdのインストールが必要</br>
 https://qiita.com/spiderx_jp/items/7f8cbfd762c9abab660b</br>
 
+##boot
+・dockerの起動は、
+ docker run -it -p 8888:8888 [image名]
+ で大丈夫なはず（帰宅後確認します）
+・jupyter notebookは、
+ jupyter notebook --allow-root
+ で起動してください。またこれにあたり、jupyter configのファイルで、起動リンクをlocalhostから0.0.0.0に変更してください。
+ http://rf00.hatenablog.com/entry/2019/01/03/180656
+ (RUNで変更できるようなので後で確認します）
+
 ## Version
 Ubuntu 18.04 LTS</br>
 CUDA compilation tools 9.1.85</br>
