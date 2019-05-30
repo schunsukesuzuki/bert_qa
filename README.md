@@ -46,6 +46,8 @@ language-pack-ja</br>
 https://www.t3a.jp/blog/infrastructure/ubuntu-text-garbled/</br>
 Docker: コンテナのlocaleを設定したい https://qiita.com/suin/items/856bf782d0d295352e51</br>
 
+Ubuntu 18.04へのCUDA10インストール方法 https://qiita.com/yukoba/items/4733e8602fa4acabcc35 
+
 ## License
 
 元のスクリプトには特にかけられていない様子
