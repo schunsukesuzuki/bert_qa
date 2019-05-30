@@ -2,6 +2,12 @@ FROM nvidia/cuda:10.0-cudnn7-devel-ubuntu18.04
 ENV DEBIAN_FRONTEND noninteractive
 ARG PYTHON_VERSION=3.6
 RUN apt-get update && apt-get install -y --no-install-recommends \
+         sudo\
+         mecab\
+         libmecab-dev\
+         mecab-ipadic-utf8\
+         python-pip\
+         python3-pip\
          language-pack-ja-base\
          language-pack-ja\
          swig\
@@ -20,12 +26,6 @@ RUN locale-gen ja_JP.UTF-8
 ENV LANG ja_JP.UTF-8
 ENV LANGUAGE ja_JP:ja
 ENV LC:ALL ja_JP.UTF-8
-
-RUN apt install mecab\
-                libmecab-dev\
-                mecab-ipadic-utf8\
-                python-pip\ 
-                python3-pip
 
 RUN pip install beautifulsoup4
 
@@ -53,8 +53,9 @@ RUN git clone https://github.com/pytorch/vision.git && cd vision && pip install 
 WORKDIR /workspace
 RUN chmod -R a+w .
 
-RUN pip3 install mecab-python3\
-                tqdm\
+RUN pip install mecab-python3
+
+RUN pip3 install tqdm\
                 ipywidgets\
                 matplotlib\
                 
