@@ -7,6 +7,10 @@ Overview
 絵文字を含む文章で答えを返す、BERTのfine tuningによるQAAnsweringの実装です。
 
 ## Dockerfile
+pytorch公式とビルドの仕方は全く同じです。ただしビルドにはかなり(手元の環境では1h弱ほど)時間がかかります。</br>
+https://github.com/pytorch/pytorch#docker-image</br>
+ただし現状tqdm,ipywidgets,matplotlibについては実行することがまだできていないため、別途ビルド後入れる必要があります。</br>
+
 
 ## Requirement
 ・dataフォルダを作成し、その中にchatdataフォルダを入れ、そこにいただいた絵文字の会話データ（chatdata-sample.txt）を入れます</br>
