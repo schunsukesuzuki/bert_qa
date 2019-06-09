@@ -9,7 +9,7 @@ Overview
 ## Dockerfile
 pytorch公式とビルドの仕方は全く同じです。ただしビルドにはかなり(手元の環境では1h弱ほど)時間がかかります。</br>
 https://github.com/pytorch/pytorch#docker-image</br>
-ただし現状tqdm,ipywidgets,matplotlibについては実行することがまだできていないため、別途ビルド後入れる必要があります。</br>
+加えて現状tqdm,ipywidgets,matplotlibについては実行することがまだできていないため、別途ビルド後入れる必要があります。</br>
 
 
 ## Requirement
